@@ -10,12 +10,12 @@
 
     <form action="{{ url('/suma') }}" method="post">
         @csrf
-        <label for="">Numero1</label>
+        <label for="">Numero 1</label>
         <input type="text" name="num1">
         <br>
         <br>
 
-        <label for="">Numero2</label>
+        <label for="">Numero 2</label>
         <input type="text" name="num2">
         <br>
         <br>
