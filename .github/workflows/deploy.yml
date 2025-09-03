@@ -18,4 +18,4 @@ jobs:
           server: ftp.appeu.com
           username: appeuhost
           password: u5dPLgKB5MS4TEKMvdHG
-          server-dir: /domains/darsoftware.com.ar/public_html/
+          server-dir: /domains/darsoftware.com.ar/public_html/laravel
