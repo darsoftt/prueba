@@ -1,0 +1,21 @@
+name: Deploy to Hosting
+
+on:
+  push:
+    branches:
+      - main   # se ejecuta cuando hagas push a main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+        with:
+          server: ftp.appeu.com
+          username: appeuhost
+          password: u5dPLgKB5MS4TEKMvdHG
+          server-dir: /domains/darsoftware.com.ar/public_html/
