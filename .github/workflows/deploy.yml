@@ -15,7 +15,7 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ftp.appeu.com
+          server: ftp.appeu.com.ar
           username: appeuhost
           password: u5dPLgKB5MS4TEKMvdHG
           server-dir: /domains/darsoftware.com.ar/public_html/laravel
