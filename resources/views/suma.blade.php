@@ -24,7 +24,7 @@
     </form>
 
     @if (isset($resultado))
-    <h3>El resultado es: <strong>{{ $resultado }}</strong></h3>
+    <h3>El resultado essss: <strong>{{ $resultado }}</strong></h3>
     @endif
 
 @endsection
