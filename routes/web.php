@@ -6,7 +6,8 @@ use App\Http\Controllers\SumaController;
 use App\Http\Controllers\IdController;
 
 Route::get('/', function () {
-    return view('welcome');
+    //return view('welcome');
+    echo 'hola mundo';
 });
 
 //Route::get('/suma', function () {
